@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 body, html {background-color:#ffffff;
     font-family: "Noto Sans KR", sans-serif;}
-main .row5 {}
+main .row5 {width: 430px;}
 main .row5 .title_g {margin-bottom:30px;}
 main .row5 .title_g .title {    
     font-size:3.375rem; font-weight:700;
@@ -45,6 +45,6 @@ main .row5 #userFrm fieldset table tr td input#txtContents {
     width:100%; height:300px;
 }
 main .row5 #userFrm fieldset #submitBtn {
-    width:100%; height:55px; background-color:#023586;
+    width:100%; height:55px; background-color:rgb(2,53,134);
     color:#fff; text-align:center; border-radius:5px;
 }

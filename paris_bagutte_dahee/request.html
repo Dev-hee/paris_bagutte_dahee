@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파리바게트 | 가맹점 상담신청 </title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/request.css">
+</head>
+<body>
+    <main>
+    <div class="row5">
+        <div class="title_g">
+            <h2 class="title">가맹점 <span></span>상담신청</h2>
+        </div>
+        <div class="row5_txt">
+            <p>가맹점 관련하여 궁금한 점은 언제든 문의주시기 바랍니다.</p>
+            <p>* 항목은 필수입력 사항입니다</p>
+        </div>
+        <form action="#" method="post" id="userFrm">
+            <fieldset>
+                <legend>상담신청양식</legend>
+                <table>
+                    <tr>
+                        <th>* 이름</th>
+                        <td><input type="text" name="userName" id="userName" required></td>
+                    </tr>
+                    <tr>
+                        <th>* 휴대폰번호</th>
+                        <td>
+                            <input type="tel" name="num" id="num" maxlength="11" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>* 이메일</th>
+                        <td>
+                            <input type="text" name="userMail" id="userMail" required>
+                            <span>@</span>
+                            <select class="box" id="userMailAddress">
+                                <option value="google.com">google.com</option>
+                                <option value="naver.com">naver.com</option>
+                                <option value="kakao.com">kakao.com</option>
+                                <option value="hanmail.net">hanmail.net</option>
+                                <option value="nate.com">nate.com</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>* 창업희망지역</th>
+                        <td><input type="text" name="startArea" id="startArea"  required></td>
+                    </tr>
+                    <tr>
+                        <th>신청계기</th>
+                        <td>
+                            <label for="radio1">
+                                <input type="radio" name="radio_g" id="radio1" value="radio1">
+                                <span>인터넷 검색</span>
+                            </label>
+                            <label for="radio2">
+                                <input type="radio" name="radio_g" id="radio2" value="radio2">
+                                <span>매장 방문</span>
+                            </label>
+                            <label for="radio3">
+                                <input type="radio" name="radio_g" id="radio3" value="radio3">
+                                <span>지인 소개</span>
+                            </label>
+                            <label for="radio4">
+                                <input type="radio" name="radio_g" id="radio4" value="radio4">
+                                <span>컨설팅/부동산</span>
+                            </label>
+                            <label for="radio5">
+                                <input type="radio" name="radio_g" id="radio5" value="radio5">
+                                <span>기타</span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>* 제목</th>
+                        <td><input type="text" name="title" id="txtTitle" required></td>
+                    </tr>
+                    
+                    <tr>
+                        <th>* 내용</th>
+                        <td><textarea></textarea></td>
+                    </tr>
+                </table>
+                <button type="submit" id="submitBtn">상담 신청하기</button>
+            </fieldset>
+        </form>
+    </div>
+</main>
+</body>
+</html>

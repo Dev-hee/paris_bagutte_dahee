@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+body, html {background-color:#ffffff;
+    font-family: "Noto Sans KR", sans-serif;}
+main .row5 {}
+main .row5 .title_g {margin-bottom:30px;}
+main .row5 .title_g .title {    
+    font-size:3.375rem; font-weight:700;
+    letter-spacing:-0.02em; color:#023586;}
+main .row5 .title_g .title span {}
+main .row5 .row5_txt {
+    display:flex; flex-flow:row wrap;
+    justify-content:space-between;
+    margin-bottom:15px;
+}
+main .row5 .row5_txt p {}
+main .row5 .row5_txt p:nth-child(1) {}
+main .row5 .row5_txt p:nth-child(2) {color: red;}
+main .row5 #userFrm {}
+main .row5 #userFrm fieldset {}
+main .row5 #userFrm fieldset table {width:100%; border-top:2px solid #023586;}
+main .row5 #userFrm fieldset table tr {border-bottom:1px solid #ccc;}
+main .row5 #userFrm fieldset table tr th {
+    width:200px; height:50px;
+}
+main .row5 #userFrm fieldset table tr td {}
+main .row5 #userFrm fieldset table tr td input {border:0;}
+main .row5 #userFrm fieldset table tr td input#userName {width:300px;}
+main .row5 #userFrm fieldset table tr td input#num1 {width:75px;}
+main .row5 #userFrm fieldset table tr td input#num2 {width:110px;}
+main .row5 #userFrm fieldset table tr td input#num3 {width:110px;}
+main .row5 #userFrm fieldset table tr td input#userMail {width:130px;}
+main .row5 #userFrm fieldset table tr td span {}
+main .row5 #userFrm fieldset table tr td input#userMailAddress {width:150px;}
+main .row5 #userFrm fieldset table tr td input#startArea {width:300px;}
+main .row5 #userFrm fieldset table tr td label {}
+main .row5 #userFrm fieldset table tr td label input {outline:0;}
+main .row5 #userFrm fieldset table tr td label #radio1 {}
+main .row5 #userFrm fieldset table tr td label #radio2 {}
+main .row5 #userFrm fieldset table tr td label #radio3 {}
+main .row5 #userFrm fieldset table tr td label #radio4 {}
+main .row5 #userFrm fieldset table tr td label #radio5 {}
+main .row5 #userFrm fieldset table tr td label span {}
+main .row5 #userFrm fieldset table tr td input#txtTitle {width:100%;}
+main .row5 #userFrm fieldset table tr td input#txtContents {
+    width:100%; height:300px;
+}
+main .row5 #userFrm fieldset #submitBtn {
+    width:100%; height:55px; background-color:#023586;
+    color:#fff; text-align:center; border-radius:5px;
+}

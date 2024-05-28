@@ -6,7 +6,7 @@ body, html {background-color:#ffffff;
 /* header */
 header {background-color:#023586;}
 header #header_wrap {
-    min-width:430px; height:70px; 
+    width:430px; height:70px; 
     margin:0 auto;
     padding: 0 16px;
     display:flex; flex-flow:row nowrap;
@@ -42,8 +42,8 @@ header #header_wrap .h_right a {
 header #header_wrap .h_right a.search {}
 header #header_wrap .h_right a.search img {width:24px;}
 /* main ì‹œìž‘ */
-main {}
-main > * {width:1200px; margin:0 auto; margin-bottom:150px;}
+main {width: 450px;}
+main > * {width:1200px; margin:0 auto; margin-bottom:30px;}
 main .title_g .sub_title {
     font-size:3.125rem;
     letter-spacing:-0.02em; line-height:1.4;
@@ -55,23 +55,29 @@ main .title_g .title {
 main .title_g + p {
     font-size:1.0rem; letter-spacing:-0.02em; line-height:2.0;
 }
-main .row1 { display: flex; margin-top:100px;}
+main .row1 { 
+    display: flex; 
+    margin-top:100px;}
 main .row1 h1 {text-align:left;}
 main .row1 h1 img {}
-main .row1 h1 img:nth-child(1) {width:160px; margin-bottom:10px;}
-main .row1 h1 img:nth-child(2) {width:228px;}
+main .row1 h1 img:nth-child(1) {   
+    display: flex;
+    flex-direction: column;
+    width:160px; margin-bottom:10px;}
+main .row1 h1 img:nth-child(2) {
+
+    width:228px;}
 main .row1 h2 {
     font-size:1.875rem; letter-spacing:-0.02em; color:#023586;
     font-weight:700; text-align:center;
     margin:10px 0 50px 0;
 }
 main .row1_bg{
-
+    display: flex;
     background-image: url(../images/pink.jpg);
     background-repeat: no-repeat;}
 main .row2_top{
     width: 100%;
-
     background-image: url(../images/main1_shop.jpg);
     background-repeat: no-repeat;
 }
@@ -87,7 +93,7 @@ main .row3_top p{
     flex-wrap: nowrap;
 }
 
-main .row4 p{
+main .row{
     padding: 20px;
     display: flex;
     flex-wrap: nowrap;
@@ -121,7 +127,7 @@ main .row4{background-color: #e6d9b7;
 
 #bottom_wrap {background-color:(255,229,241,0.26) ;}
 #bottom_wrap .center{
-    background-color:#e6d9b7;
+    border-top: 1px solid #023586;
     min-width:430px; height:70px; 
     margin:0 auto;
     padding: 0 16px;

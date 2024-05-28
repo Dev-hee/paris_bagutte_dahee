@@ -54,7 +54,8 @@ main .title_g + p {
     font-size:1.0rem; letter-spacing:-0.02em; line-height:2.0;
 }
 main .row1 { 
-    display: flex; 
+    display: flex;
+    flex-wrap: nowrap;
     margin-top:100px;}
 main .row1 h1 {text-align:left;}
 main .row1 h1 img {}
@@ -68,12 +69,18 @@ main .row1 h1 img:nth-child(2) {
 main .row1 h2 {
     font-size:1.875rem; letter-spacing:-0.02em; color:#023586;
     font-weight:700; text-align:center;
-    margin:10px 0 50px 0;
+    margin:10px 0 20px 0;
 }
 main .row1_bg{
-    display: flex;
-    background-image: url(../images/pink.jpg);
-    background-repeat: no-repeat;}
+
+}
+main .row1_bg p {
+    display:flex;
+    flex-direction: column;
+    width:350px; height: 30px;
+    background-image:url(../images/pink.jpg);
+    background-repeat: no-repeat;
+}
 main .row2_top{
     width: 100%;
     background-image: url(../images/main1_shop.jpg);
